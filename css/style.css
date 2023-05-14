@@ -1,0 +1,108 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-image: url(/images/bg-image.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 0, 170);
+}
+
+body {
+    background-color: #f4f4f4;
+    width: 1200px;
+    height: 700px;
+    margin-top: 25px;
+
+}
+
+h1 {
+    font-family: 'Shantell Sans', sans-serif;
+    color: #f4f4f4;
+    padding: 5px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.title {
+    background-color: rgb(39, 39, 250);
+}
+
+.heart {
+    position: absolute;
+    left: -100px;
+}
+
+.cat {
+    position: absolute;
+    right: 147px;
+    width: 300px;
+    height: 323px;
+}
+
+.osaka {
+    position: absolute;
+    bottom: 22px;
+    right: 147px;
+    width: 300px;
+    height: 323px;
+}
+
+.die {
+    width: 300px;
+    height: 323px;
+}
+
+.sonic {
+    position: absolute;
+    width: 300px;
+    height: 323px;
+    left: 148px;
+    bottom: 22px;
+}
+
+.error {
+    position: absolute;
+    top: -20px;
+    width: 180px;
+    right: 100px;
+}
+
+.kiki {
+    position: absolute;
+    width: 600px;
+}
+
+
+
+.text-box {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    max-width: 600px;
+    min-height: 300px;
+    margin-left: 300px;
+    background-image: url(/images/nos.jpg);
+    background-position: center center;
+    background-size: cover;
+    padding: 69px;
+}
+
+.texto {
+    color: white;
+    background-color: rgba(255, 0, 221, 0.488);
+    border-radius: 5px;
+    padding: 10px;
+    border: 2px solid pink;
+}
+
+.nos {
+    width: 2000px;
+    position: absolute;
+}
